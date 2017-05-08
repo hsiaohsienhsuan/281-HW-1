@@ -1,0 +1,121 @@
+.main {
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 40px 0px 50px 0px;
+}
+
+.main *:not(nav) {
+    width: 600px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 800px;
+    height: 300px;
+    margin: 0;
+    background: url('https://unsplash.it/800/300?image=885');
+    position: relative
+}
+
+div.nav {
+    height: 40px;
+    width: 300px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
+    font-family: sans-serif;
+    list-style-type: none;
+    padding: 13px 19px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 20px
+}
+
+div.nav-btn-1 {
+    display: inline-block;
+    width: 48px;
+    margin: 0 8px 0 0;
+}
+
+div.nav-btn-2 {
+    display: inline-block;
+    width: 34px;
+    margin: 0 9px 0 0;
+}
+
+div.nav-btn-3 {
+    display: inline-block;
+    width: 89px;
+    margin: 0 8px 0 0;
+}
+
+div.nav-btn-4 {
+    display: inline-block;
+    width: 50px;
+    margin: 0 0 0 0;
+}
+
+.nav-btn-1>a,
+.nav-btn-2>a,
+.nav-btn-3>a,
+.nav-btn-4>a {
+    color: gray;
+    text-decoration: none;
+}
+
+#blog {
+    color: black;
+}
+
+section.title {
+    margin: 30px auto 0 auto;
+}
+
+span {
+    color: gray;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+a.title {
+    color: black;
+    text-decoration: none;
+}
+
+img.Flugel {
+    width: 600px;
+    height: 401px;
+}
+
+p {
+    color: gray;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+a.other {
+    display: block;
+    color: black;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+a {
+    color: black;
+    font-family: sans-serif;
+}
+
+ol {
+    color: gray;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+div.information,
+h5 {
+    color: gray;
+    line-height: 35px;
+}
